@@ -26,8 +26,12 @@
 		24DD6CFA1134B3F500162E58 /* ComMrcsProperbarcolorModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* ComMrcsProperbarcolorModule.m */; };
 		24DE9E1111C5FE74003F90F6 /* ComMrcsProperbarcolorModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* ComMrcsProperbarcolorModuleAssets.h */; };
 		24DE9E1211C5FE74003F90F6 /* ComMrcsProperbarcolorModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* ComMrcsProperbarcolorModuleAssets.m */; };
-		2DFAA4B6180329B500865CBE /* TiUIWindow+WithColorLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DFAA4B4180329B500865CBE /* TiUIWindow+WithColorLayer.h */; };
-		2DFAA4B7180329B500865CBE /* TiUIWindow+WithColorLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFAA4B5180329B500865CBE /* TiUIWindow+WithColorLayer.m */; };
+		2D4856E21805B4DA00D9C56C /* TiUITabGroup+BarStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D4856E01805B4DA00D9C56C /* TiUITabGroup+BarStyle.h */; };
+		2D4856E31805B4DA00D9C56C /* TiUITabGroup+BarStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4856E11805B4DA00D9C56C /* TiUITabGroup+BarStyle.m */; };
+		2D4856E61805D78800D9C56C /* NSObject+Swizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D4856E41805D78800D9C56C /* NSObject+Swizzle.h */; };
+		2D4856E71805D78800D9C56C /* NSObject+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4856E51805D78800D9C56C /* NSObject+Swizzle.m */; };
+		2DFAA4B6180329B500865CBE /* TiUIWindowProxy+WithColorLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DFAA4B4180329B500865CBE /* TiUIWindowProxy+WithColorLayer.h */; };
+		2DFAA4B7180329B500865CBE /* TiUIWindowProxy+WithColorLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFAA4B5180329B500865CBE /* TiUIWindowProxy+WithColorLayer.m */; };
 		AA747D9F0F9514B9006C5449 /* ComMrcsProperbarcolor_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComMrcsProperbarcolor_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -48,8 +52,12 @@
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
 		24DE9E0F11C5FE74003F90F6 /* ComMrcsProperbarcolorModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComMrcsProperbarcolorModuleAssets.h; path = Classes/ComMrcsProperbarcolorModuleAssets.h; sourceTree = "<group>"; };
 		24DE9E1011C5FE74003F90F6 /* ComMrcsProperbarcolorModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComMrcsProperbarcolorModuleAssets.m; path = Classes/ComMrcsProperbarcolorModuleAssets.m; sourceTree = "<group>"; };
-		2DFAA4B4180329B500865CBE /* TiUIWindow+WithColorLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TiUIWindow+WithColorLayer.h"; path = "Classes/TiUIWindow+WithColorLayer.h"; sourceTree = "<group>"; };
-		2DFAA4B5180329B500865CBE /* TiUIWindow+WithColorLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TiUIWindow+WithColorLayer.m"; path = "Classes/TiUIWindow+WithColorLayer.m"; sourceTree = "<group>"; };
+		2D4856E01805B4DA00D9C56C /* TiUITabGroup+BarStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TiUITabGroup+BarStyle.h"; path = "Classes/TiUITabGroup+BarStyle.h"; sourceTree = "<group>"; };
+		2D4856E11805B4DA00D9C56C /* TiUITabGroup+BarStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TiUITabGroup+BarStyle.m"; path = "Classes/TiUITabGroup+BarStyle.m"; sourceTree = "<group>"; };
+		2D4856E41805D78800D9C56C /* NSObject+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+Swizzle.h"; path = "Classes/NSObject+Swizzle.h"; sourceTree = "<group>"; };
+		2D4856E51805D78800D9C56C /* NSObject+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Swizzle.m"; path = "Classes/NSObject+Swizzle.m"; sourceTree = "<group>"; };
+		2DFAA4B4180329B500865CBE /* TiUIWindowProxy+WithColorLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TiUIWindowProxy+WithColorLayer.h"; path = "Classes/TiUIWindowProxy+WithColorLayer.h"; sourceTree = "<group>"; };
+		2DFAA4B5180329B500865CBE /* TiUIWindowProxy+WithColorLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TiUIWindowProxy+WithColorLayer.m"; path = "Classes/TiUIWindowProxy+WithColorLayer.m"; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* ComMrcsProperbarcolor_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComMrcsProperbarcolor_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libComMrcsProperbarcolor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComMrcsProperbarcolor.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,8 +109,12 @@
 				24DE9E1011C5FE74003F90F6 /* ComMrcsProperbarcolorModuleAssets.m */,
 				24DD6CF71134B3F500162E58 /* ComMrcsProperbarcolorModule.h */,
 				24DD6CF81134B3F500162E58 /* ComMrcsProperbarcolorModule.m */,
-				2DFAA4B4180329B500865CBE /* TiUIWindow+WithColorLayer.h */,
-				2DFAA4B5180329B500865CBE /* TiUIWindow+WithColorLayer.m */,
+				2DFAA4B4180329B500865CBE /* TiUIWindowProxy+WithColorLayer.h */,
+				2DFAA4B5180329B500865CBE /* TiUIWindowProxy+WithColorLayer.m */,
+				2D4856E01805B4DA00D9C56C /* TiUITabGroup+BarStyle.h */,
+				2D4856E11805B4DA00D9C56C /* TiUITabGroup+BarStyle.m */,
+				2D4856E41805D78800D9C56C /* NSObject+Swizzle.h */,
+				2D4856E51805D78800D9C56C /* NSObject+Swizzle.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -123,10 +135,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D4856E21805B4DA00D9C56C /* TiUITabGroup+BarStyle.h in Headers */,
 				AA747D9F0F9514B9006C5449 /* ComMrcsProperbarcolor_Prefix.pch in Headers */,
-				2DFAA4B6180329B500865CBE /* TiUIWindow+WithColorLayer.h in Headers */,
+				2DFAA4B6180329B500865CBE /* TiUIWindowProxy+WithColorLayer.h in Headers */,
 				24DD6CF91134B3F500162E58 /* ComMrcsProperbarcolorModule.h in Headers */,
 				24DE9E1111C5FE74003F90F6 /* ComMrcsProperbarcolorModuleAssets.h in Headers */,
+				2D4856E61805D78800D9C56C /* NSObject+Swizzle.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,8 +213,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DFAA4B7180329B500865CBE /* TiUIWindow+WithColorLayer.m in Sources */,
+				2DFAA4B7180329B500865CBE /* TiUIWindowProxy+WithColorLayer.m in Sources */,
 				24DD6CFA1134B3F500162E58 /* ComMrcsProperbarcolorModule.m in Sources */,
+				2D4856E71805D78800D9C56C /* NSObject+Swizzle.m in Sources */,
+				2D4856E31805B4DA00D9C56C /* TiUITabGroup+BarStyle.m in Sources */,
 				24DE9E1211C5FE74003F90F6 /* ComMrcsProperbarcolorModuleAssets.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

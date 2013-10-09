@@ -1,27 +1,24 @@
-// This is a test harness for your module
-// You should do something interesting in this harness 
-// to test out the module and to provide instructions 
-// to users on how to use it by example.
-
-//var ProperBarColor = require('com.mrcs.properbarcolor');
-
-// open a single window
 var ProperBarColor = require('com.mrcs.properbarcolor');
-ProperBarColor.layerOpacity = 0.6;
+ProperBarColor.layerOpacity = 0.7;
 
-var win = Ti.UI.createWindow({
+var tabGroup = Titanium.UI.createTabGroup({
+  barStyle: ProperBarColor.DARK
+});
+
+var win1 = Ti.UI.createWindow({
 	barColor: "#62D1A7",
-	backgroundColor:'white',
+  tintColor: "#237757",
+	backgroundColor: "#FFFFFF",
   title: "Hello World",
-  translucent: true,
   extendEdges: [Ti.UI.EXTEND_EDGE_BOTTOM, Ti.UI.EXTEND_EDGE_TOP],
   autoAdjustScrollViewInsets: true,
   orientationModes: [Ti.UI.PORTRAIT, Ti.UI.LANDSCAPE_LEFT, Ti.UI.LANDSCAPE_RIGHT]
 });
 
-var win1 = Titanium.UI.iOS.createNavigationWindow({
-   window: win,
-   tintColor: "#237757"
+var tab1 = Titanium.UI.createTab({  
+    icon:'KS_nav_views.png',
+    title:'Tab 1',
+    window:win1
 });
 
 var tableview = Ti.UI.createTableView({
@@ -57,8 +54,28 @@ tableview.addEventListener('click', function() {
   win1.openWindow(newwin);
 })
 
-win.add(tableview);
-win1.open();
+win1.add(tableview);
 
-// TODO: write your module tests here
 
+var win2 = Ti.UI.createWindow({
+  barColor: "#62D1A7",
+  tintColor: "#237757",
+  backgroundColor: "#FFFFFF",
+  title: "Hello World",
+  extendEdges: [Ti.UI.EXTEND_EDGE_BOTTOM, Ti.UI.EXTEND_EDGE_TOP],
+  autoAdjustScrollViewInsets: true,
+  orientationModes: [Ti.UI.PORTRAIT, Ti.UI.LANDSCAPE_LEFT, Ti.UI.LANDSCAPE_RIGHT]
+});
+
+var tab2 = Titanium.UI.createTab({  
+    icon:'KS_nav_views.png',
+    title:'Tab 2',
+    window:win2
+});
+
+
+tabGroup.addTab(tab1);  
+tabGroup.addTab(tab2);  
+
+// open tab group
+tabGroup.open();

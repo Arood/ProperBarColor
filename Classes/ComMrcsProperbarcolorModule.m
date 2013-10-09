@@ -65,6 +65,9 @@ static CGFloat _layerOpacity = 0.7f;
 	[super didReceiveMemoryWarning:notification];
 }
 
+MAKE_SYSTEM_PROP(DEFAULT, UIBarStyleDefault);
+MAKE_SYSTEM_PROP(DARK, UIBarStyleBlack);
+
 #pragma Static APIs or something
 
 +(CGFloat)staticLayerOpacity
